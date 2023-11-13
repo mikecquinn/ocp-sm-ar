@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: AppProject
 metadata:
   name: workloads
-  namespace: test-gitops
+  namespace: openshift-gitops
 spec:
   clusterResourceWhitelist:
   - group: '*'
