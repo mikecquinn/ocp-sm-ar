@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
   name: workload-apps
-  namespace: openshift-gitops
+  namespace: test-gitops
 spec:
   generators:
   - git:
